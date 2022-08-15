@@ -6,28 +6,29 @@ import {Link} from 'react-router-dom'
 //import styles
 import "../pages/pages_Styling/Home.css"
 
-import Background from '../img/section-a.webp'
+import Background from '../img/section-b.webp'
 
 
 
-const Sections = () => {
+const Sections = ({launch,name,imgSr,key}) => {
+  console.log(imgSr)
   return (
     
-    <div className="parentHome" style={{backgroundImage: "url(" + Background + ")"}}>
+    <div className="parentHome" style={{backgroundImage: `url(${imgSr})`}} key={key}>
       <div className="innerSection">
-        <h4>Upcomming Launch</h4>
-        <h2>CRS-25 Mission</h2>
+        <h4>{launch}</h4>
+        <h2>{name}</h2>
         <Link to='/falcon9' className="btn">
           <div className="hover"></div>
           <span>Review</span>
         </Link>
       </div>
-      <div class="scroll-arrow">
+      <div className="scroll-arrow">
         <svg width="30px" height="20px">
           <path
             stroke="#ffffff"
             fill="none"
-            stroke-width="2px"
+            strokeWidth="2px"
             d="M2.000,5.000 L15.000,18.000 L28.000,5.000 "
           ></path>
         </svg>

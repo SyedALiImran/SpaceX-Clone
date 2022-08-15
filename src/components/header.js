@@ -44,12 +44,12 @@ const header = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink activeClassName="active" to="rideshare">
+              <NavLink to="rideshare">
                 rideshare
               </NavLink>
             </li>
             <li>
-              <NavLink activeClassName="active" to="starNavLink">
+              <NavLink to="starNavLink">
                 starLink
               </NavLink>
             </li>
