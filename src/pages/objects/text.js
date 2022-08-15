@@ -21,27 +21,27 @@ const text = [
         link:'/reviewpage'
     },
     {
-        img:'https://spacenews.com/wp-content/uploads/2020/08/SES-22-and-SES-23-copyright-Thales-Alenia-Space-1024x576.jpg',
+        imgSr:'https://cosmoquest.org/x/dailyspace/files/2022/07/DS-20220630a1.jpg',
         launch:"recent mission",
         name:"SES-22 MISSION",
         link:'/reviewpage'
     },
     {
-        img:{sectionD},
-        launch:"recent mission",
-        name:"SES-22 MISSION",
+        imgSr:'https://th.bing.com/th/id/R.61281a921f8a6cbb747206532d841a0c?rik=9hVeRtNlSzPJGw&pid=ImgRaw&r=0',
+        launch:"recent launch",
+        name:"kplo MISSION",
         link:'/reviewpage'
     },
     {
-        img:{sectionE},
+        imgSr:'https://th.bing.com/th/id/R.88de57e5d0aa83148c79077e0690d7b0?rik=roLeDWBWP61Xgg&pid=ImgRaw&r=0',
         launch:"recent mission",
         name:"GLOBALSTAR FM-15 MISSION",
         link:'/reviewpage'
     },
     {
-        img:{sectionF},
-        launch:"recent mission",
-        name:"GLOBALSTAR FM-15 MISSION",
+        imgSr:'https://th.bing.com/th/id/R.45e4edb64d57488f388be3cf848ed123?rik=ygNZCCwAox08cQ&pid=ImgRaw&r=0',
+        // launch:"recent mission",
+        name:"STARSHIP UPDATE",
         link:'/reviewpage'
     },
 ]
