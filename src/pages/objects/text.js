@@ -1,14 +1,9 @@
-//images
-import sectionA  from '../../img/section-a.webp'
-import sectionB  from '../../img/section-b.webp'
-import sectionC  from '../../img/section-c.webp'
-import sectionD  from '../../img/section-d.webp'
-import sectionE  from '../../img/section-e.webp'
-import sectionF  from '../../img/section-f.webp'
+
 
 const text = [
     {
-        imgSr:'https://th.bing.com/th/id/R.1e8e6d8ca8f7ee4fd17a3fb619ce7360?rik=EyDTpl50aQ45Kg&pid=ImgRaw&r=0',
+        // imgSr:'https://th.bing.com/th/id/R.1e8e6d8ca8f7ee4fd17a3fb619ce7360?rik=EyDTpl50aQ45Kg&pid=ImgRaw&r=0',
+        imgSr:'https://d.ibtimes.co.uk/en/full/1676812/spacex-falcon-9-launch.jpg',
         launch:"upcomming launch",
         name:"CRS-25 MISSION",
         link:'/reviewpage'

@@ -6,7 +6,7 @@ import "./App.css";
 
 //Component Imports
 import Header from './components/header'
-
+import Footer from './components/footer'
 //Pages Imports
 import Home from "./pages/Home";
 import Falcon from './pages/falcon9'
@@ -32,6 +32,7 @@ function App() {
           <Route path="/rideshare" element={<Rideshare />} />
           <Route path="/starlink" element={<Starlink />} />
         </Routes>
+        <Footer/>
       </Router>
     </>
   );
